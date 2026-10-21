@@ -1,9 +1,9 @@
 import java.io.FilterOutputStream;
 
 public class Cuadradocalculos {
-    public int perimetro(int lado) {
+    public double perimetro(double lado) {
         if (lado > 0) {
-            int suma = lado * 4;
+            double suma = (lado * 4);
             System.out.println("El perímetro es: " + suma);
             return suma;
         } else {
@@ -11,9 +11,9 @@ public class Cuadradocalculos {
             return 0;
         }
     }
-    public int area ( int lado){
+    public double area ( double lado){
             if (lado > 0) {
-                int area = lado * lado;
+                double area = lado * lado;
                 System.out.println("El área es: " + area);
                 return area;
             }else {
